@@ -1,0 +1,22 @@
+{
+  "name": "twitchrainbow",
+  "version": "1.0.0",
+  "description": "Changes display name colour to cycle through colours of the rainbow",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "inquirer": "^6.3.1",
+    "tmi.js": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "node app.js"
+  },
+  "keywords": [
+    "Twith",
+    "Rainbow",
+    "Name"
+  ],
+  "author": "Luke Finch",
+  "license": "ISC"
+}
