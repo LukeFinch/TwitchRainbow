@@ -1,6 +1,6 @@
 const tmi = require('tmi.js');
 require('dotenv').config()
-const incr = 20
+const incr = process.env.INCREMENT
 
 console.log(process.env)
 
@@ -34,7 +34,7 @@ client.connect();
 
 // Called every time a message comes in
 function onMessageHandler (target, context, msg, self) {
-//console.log(target, context, msg, self)
+
   if (context.username == opts.identity.username) {
     let h = HexToHSL(context.color).h
     console.log(h)
